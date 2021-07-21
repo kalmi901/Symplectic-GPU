@@ -160,7 +160,6 @@
     <ClInclude Include="JFGMRES.cuh" />
     <ClInclude Include="MidPointRuleStepper.cuh" />
     <ClInclude Include="NewtonIteration.cuh" />
-    <ClInclude Include="SolverFunctions.cuh" />
     <ClInclude Include="Solvers.cuh" />
     <ClInclude Include="StationarySolvers.cuh" />
     <ClInclude Include="SystemDefinition.cuh" />

@@ -2,10 +2,10 @@
 #include <time.h> 
 #include "cuda_runtime.h"
 #include "device_launch_parameters.h"
-#include "..\Sympletic\DirectSolvers.cuh"
-#include "..\Sympletic\BICG.cuh"
-#include "..\Sympletic\GMRES.cuh"
-#include "..\Sympletic\StationarySolvers.cuh"
+#include "..\Symplectic\DirectSolvers.cuh"
+#include "..\Symplectic\BICG.cuh"
+#include "..\Symplectic\GMRES.cuh"
+#include "..\Symplectic\StationarySolvers.cuh"
 
 
 #define SIZE 3

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <math.h>
-#include "..\Sympletic\DirectSolvers.cuh"
-#include "..\Sympletic\Dependecies\AD.cuh"
+#include "..\Symplectic\DirectSolvers.cuh"
+#include "..\Symplectic\Dependecies\AD.cuh"
 
 double x0[3] = { 1, 2, 3 };
 double dx[3] = { 0, 0, 0 };
@@ -79,7 +79,7 @@ void NewtonIterationAnalytic()
 }
 
 
-#include "..\Sympletic\GMRES.cuh"
+#include "..\Symplectic\GMRES.cuh"
 void NewtonIterationDual() {
 	Dual<3, double>FDual[3];
 	Dual<3, double>xDual[3];
@@ -166,7 +166,7 @@ void JV_approx(T* JV, T* V, const int offset) {
 	}
 }
 
-#include "..\Sympletic\JFGMRES.cuh"
+#include "..\Symplectic\JFGMRES.cuh"
 void NewtonIterationJacFreeGMRES() {
 
 	double F[3];

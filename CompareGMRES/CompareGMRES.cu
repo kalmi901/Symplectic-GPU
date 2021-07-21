@@ -34,8 +34,8 @@ void JV_approx(T* JV, T* v, const int offset) {
 }
 
 
-#include "..\Sympletic\GMRES.cuh"
-#include "..\Sympletic\JFGMRES.cuh"
+#include "..\Symplectic\GMRES.cuh"
+#include "..\Symplectic\JFGMRES.cuh"
 
 int main()
 {

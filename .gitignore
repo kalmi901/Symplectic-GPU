@@ -5,8 +5,8 @@ CompareGMRES/x64/*
 HarmonicOscillator/x64/*
 NCoupledOscillators/x64/*
 NewtonIteration/x64/*
-Sympletic/Release/*
-Sympletic/x64/*
+Symplectic/Release/*
+Symplectic/x64/*
 TestLinearSolvers/x64/*
 
 # Prerequisites

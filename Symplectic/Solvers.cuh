@@ -29,7 +29,6 @@ enum class Variable {
 };
 
 
-//#include "SolverFunctions.cuh"  - Obsolate
 #include "MidPointRuleStepper.cuh"
 
 template<typename T, int NT, int SD, int NCP, int R>

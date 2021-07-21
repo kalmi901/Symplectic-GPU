@@ -32,8 +32,8 @@ const int R = 2;		// GMRES
 #include<iostream>
 #include<vector>
 #include "SystemDefinition.cuh"
-#include "Sympletic/Accessories.cuh"
-#include "Sympletic/Solvers.cuh"
+#include "..\Symplectic\Accessories.cuh"
+#include "..\Symplectic\Solvers.cuh"
 
 
 void Linspace(std::vector<PRECISION>&, PRECISION, PRECISION, int);

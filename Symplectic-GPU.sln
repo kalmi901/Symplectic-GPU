@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1169
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sympletic", "Sympletic\Sympletic.vcxproj", "{D011A43A-DC6A-4449-BB11-75683C2BFE03}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Symplectic", "Symplectic\Symplectic.vcxproj", "{D011A43A-DC6A-4449-BB11-75683C2BFE03}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestLinearSolvers", "TestLinearSolvers\TestLinearSolvers.vcxproj", "{3C23B00A-B979-4B73-A888-180A889B80BA}"
 EndProject

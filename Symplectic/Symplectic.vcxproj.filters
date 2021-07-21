@@ -14,9 +14,6 @@
     <ClInclude Include="BICG.cuh" />
     <ClInclude Include="GMRES.cuh" />
     <ClInclude Include="JFGMRES.cuh" />
-    <ClInclude Include="SolverFunctions.cuh">
-      <Filter>Obsolate</Filter>
-    </ClInclude>
     <ClInclude Include="MidPointRuleStepper.cuh" />
     <ClInclude Include="FixedPointIteration.cuh">
       <Filter>NonlinearIteration</Filter>
@@ -31,9 +28,6 @@
   <ItemGroup>
     <Filter Include="Dependencies">
       <UniqueIdentifier>{d57907d9-7af3-464e-a314-9997ad3e2652}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Obsolate">
-      <UniqueIdentifier>{e027130c-5c01-48c9-a72e-9e5af5488afb}</UniqueIdentifier>
     </Filter>
     <Filter Include="NonlinearIteration">
       <UniqueIdentifier>{512fcf34-213f-43e2-8b25-9fec2abb98c1}</UniqueIdentifier>
